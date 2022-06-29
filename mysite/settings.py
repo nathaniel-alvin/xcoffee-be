@@ -25,7 +25,7 @@ SECRET_KEY = ')+fhp5@@6e^dwo9n$msq6rv&&%q#_t(6*ouhh6q8+k*+lv-a2$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'characternames-backend.herokuapp.com', 'xcoffeevin.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'xcoffeevin.herokuapp.com']
 
 # Application definition
 INSTALLED_APPS = [
@@ -144,7 +144,5 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
     'https://localhost:3000',
     'http://localhost:3000',
-    'https://herosname-react-frontend.vercel.app',
-    'https://lyfe-is-pain.herokuapp.com',
     'https://xcoffeevinfe.herokuapp.com'
 )
